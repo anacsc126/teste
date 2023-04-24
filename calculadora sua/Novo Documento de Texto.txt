@@ -1,0 +1,21 @@
+var a = parseInt( prompt('digite o  primeiro numero'));
+var b = parseInt( prompt('digite o  segundo numero'));
+var c = parseInt( prompt('operador')); 
+//se for 1 soma, se for 2 subtraii,se for 3 multiolica, se for 4 dividi.
+
+if (c == 1 )
+{
+console.log('resultado é' + ( a + b ));
+}
+else if (c == 2 )
+{
+console.log('resultado é' + ( a - b ));
+}
+else if ( c == 3 )
+{
+console.log('resultado é' + ( a * b ));
+}
+else if (c == 4 )
+{
+console.log('resultado é' + ( a / b ));
+}
